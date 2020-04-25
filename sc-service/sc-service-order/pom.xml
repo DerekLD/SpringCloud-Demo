@@ -12,8 +12,19 @@
     <name>sc-service-order</name>
     <description>Spring Cloud Demo for Server Order</description>
 
+    <properties>
+        <goods-api-version>1.0.1</goods-api-version>
+    </properties>
+
     <modules>
         <module>sc-service-order-api</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>ld.derek</groupId>
+            <artifactId>service-goods-api</artifactId>
+            <version>${goods-api-version}</version>
+        </dependency>
+    </dependencies>
 </project>
