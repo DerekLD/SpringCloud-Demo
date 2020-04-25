@@ -16,6 +16,7 @@
 
     <properties>
         <druid-version>1.1.22</druid-version>
+        <ld.derek.common.version>1.0.1</ld.derek.common.version>
         <springfox-swagger2-version>2.9.2</springfox-swagger2-version>
         <springfox-swagger-ui-version>2.9.2</springfox-swagger-ui-version>
         <mybatis-plus-starter-version>3.3.1</mybatis-plus-starter-version>
@@ -27,6 +28,12 @@
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
             <version>${springfox-swagger2-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ld.derek</groupId>
+            <artifactId>service-common</artifactId>
+            <version>${ld.derek.common.version}</version>
         </dependency>
 
         <dependency>
