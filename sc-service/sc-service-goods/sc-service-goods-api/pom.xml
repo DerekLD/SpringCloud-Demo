@@ -7,7 +7,6 @@
         <artifactId>service-goods</artifactId>
         <version>1.0.1</version>
     </parent>
-    <groupId>ld.derek</groupId>
     <artifactId>service-goods-api</artifactId>
     <version>1.0.1</version>
     <name>service-goods-api</name>

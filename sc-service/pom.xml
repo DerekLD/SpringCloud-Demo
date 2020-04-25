@@ -8,11 +8,17 @@
         <version>1.0.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>ld.derek</groupId>
     <artifactId>service</artifactId>
     <version>1.0.1</version>
     <name>service</name>
     <description>Spring Cloud Demo For Server Father</description>
+
+    <modules>
+        <module>sc-service-common</module>
+        <module>sc-service-goods</module>
+        <module>sc-service-order</module>
+        <module>sc-service-stock</module>
+    </modules>
 
     <properties>
         <druid-version>1.1.22</druid-version>

@@ -7,11 +7,13 @@
         <artifactId>service</artifactId>
         <version>1.0.1</version>
     </parent>
-    <groupId>ld.derek</groupId>
     <artifactId>service-order</artifactId>
     <version>1.0.1</version>
     <name>service-order</name>
     <description>Spring Cloud Demo for Server Order</description>
 
+    <modules>
+        <module>sc-service-order-api</module>
+    </modules>
 
 </project>

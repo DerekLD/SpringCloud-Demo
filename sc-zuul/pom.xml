@@ -7,7 +7,6 @@
         <artifactId>jar-mamange</artifactId>
         <version>1.0.1</version>
     </parent>
-    <groupId>ld.derek</groupId>
     <artifactId>zuul</artifactId>
     <version>1.0.1</version>
     <name>zuul</name>

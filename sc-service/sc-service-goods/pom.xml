@@ -7,11 +7,13 @@
         <artifactId>service</artifactId>
         <version>1.0.1</version>
     </parent>
-    <groupId>ld.derek</groupId>
     <artifactId>service-goods</artifactId>
     <version>1.0.1</version>
     <name>service-goods</name>
     <description>Spring Cloud Demo for Service Goods</description>
 
+    <modules>
+        <module>sc-service-goods-api</module>
+    </modules>
 
 </project>

@@ -13,5 +13,8 @@
     <name>service-stock</name>
     <description>Spring Cloud Demo for Service Stock</description>
 
+    <modules>
+        <module>sc-service-stock-api</module>
+    </modules>
 
 </project>

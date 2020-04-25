@@ -7,7 +7,6 @@
         <artifactId>service-order</artifactId>
         <version>1.0.1</version>
     </parent>
-    <groupId>ld.derek</groupId>
     <artifactId>service-order-api</artifactId>
     <version>1.0.1</version>
     <name>service-order-api</name>

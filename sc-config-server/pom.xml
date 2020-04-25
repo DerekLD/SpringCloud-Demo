@@ -8,7 +8,6 @@
         <version>1.0.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>ld.derek</groupId>
     <artifactId>config</artifactId>
     <version>1.0.1</version>
     <name>config</name>
