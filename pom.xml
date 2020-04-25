@@ -11,7 +11,7 @@
     <groupId>ld.derek</groupId>
     <artifactId>jar-mamange</artifactId>
     <version>1.0.1</version>
-    <name>spring-cloud-demo</name>
+    <name>Spring-Cloud-Demo</name>
     <description>Spring Cloud Demo for Father Project</description>
 
     <developers>

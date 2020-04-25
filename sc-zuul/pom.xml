@@ -9,6 +9,6 @@
     </parent>
     <artifactId>zuul</artifactId>
     <version>1.0.1</version>
-    <name>zuul</name>
+    <name>sc-zuul</name>
     <description>Spring Cloud for Zuul</description>
 </project>

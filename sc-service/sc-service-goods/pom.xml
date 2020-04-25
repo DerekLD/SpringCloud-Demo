@@ -9,7 +9,7 @@
     </parent>
     <artifactId>service-goods</artifactId>
     <version>1.0.1</version>
-    <name>service-goods</name>
+    <name>sc-service-goods</name>
     <description>Spring Cloud Demo for Service Goods</description>
 
     <modules>

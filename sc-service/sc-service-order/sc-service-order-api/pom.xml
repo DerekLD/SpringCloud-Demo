@@ -9,7 +9,7 @@
     </parent>
     <artifactId>service-order-api</artifactId>
     <version>1.0.1</version>
-    <name>service-order-api</name>
+    <name>sc-service-order-api</name>
     <description>Spring Cloud Demo for Service Order Api</description>
 
 </project>

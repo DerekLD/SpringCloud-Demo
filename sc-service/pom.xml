@@ -10,7 +10,7 @@
     </parent>
     <artifactId>service</artifactId>
     <version>1.0.1</version>
-    <name>service</name>
+    <name>sc-service</name>
     <description>Spring Cloud Demo For Server Father</description>
 
     <modules>

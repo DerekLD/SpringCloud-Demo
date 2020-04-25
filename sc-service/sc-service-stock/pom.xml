@@ -10,7 +10,7 @@
     <groupId>ld.derek</groupId>
     <artifactId>service-stock</artifactId>
     <version>1.0.1</version>
-    <name>service-stock</name>
+    <name>sc-service-stock</name>
     <description>Spring Cloud Demo for Service Stock</description>
 
     <modules>

@@ -9,6 +9,6 @@
     </parent>
     <artifactId>service-common</artifactId>
     <version>1.0.1</version>
-    <name>service-common</name>
+    <name>sc-service-common</name>
     <description>Spring Cloud Demo for Common</description>
 </project>

@@ -10,7 +10,7 @@
     </parent>
     <artifactId>eureka</artifactId>
     <version>1.0.1</version>
-    <name>eureka</name>
+    <name>sc-eureka-server</name>
     <description>Spring Cloud Demo for Eureka Server</description>
 
 </project>
