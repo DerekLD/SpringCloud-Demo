@@ -1,0 +1,23 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: sc-zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+zuul:
+  routes:
+    goods-route:
+      path: /goods/**
+      service-id: sc-service-goods
+    order-route:
+      path: /order/**
+      service-id: sc-service-order
+    stock-route:
+      path: /stock/**
+      service-id: sc-service-stock
+

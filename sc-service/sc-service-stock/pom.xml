@@ -11,10 +11,31 @@
     <artifactId>service-stock</artifactId>
     <version>1.0.1</version>
     <name>sc-service-stock</name>
+    <packaging>jar</packaging>
     <description>Spring Cloud Demo for Service Stock</description>
 
-    <modules>
-        <module>sc-service-stock-api</module>
-    </modules>
+    <properties>
+        <goods-api-version>1.0.1</goods-api-version>
+        <order-api-version>1.0.1</order-api-version>
+        <stock-api-version>1.0.1</stock-api-version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>ld.derek</groupId>
+            <artifactId>service-goods-api</artifactId>
+            <version>${goods-api-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ld.derek</groupId>
+            <artifactId>service-order-api</artifactId>
+            <version>${order-api-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ld.derek</groupId>
+            <artifactId>service-stock-api</artifactId>
+            <version>${stock-api-version}</version>
+        </dependency>
+    </dependencies>
 
 </project>

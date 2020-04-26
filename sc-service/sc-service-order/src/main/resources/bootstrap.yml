@@ -1,0 +1,20 @@
+server:
+  port: 9002
+
+spring:
+  datasource:
+    url: jdbc:mysql://111.229.45.193:3306/sc_service_order?characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&useSSL=true
+    username: root
+    password: 123456
+  application:
+    name: sc-service-order
+  cloud:
+    config:
+      uri: http://localhost:8003/
+      profile: dev
+      label: dev
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/

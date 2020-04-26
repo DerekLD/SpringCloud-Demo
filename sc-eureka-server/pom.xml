@@ -6,11 +6,16 @@
         <groupId>ld.derek</groupId>
         <artifactId>jar-mamange</artifactId>
         <version>1.0.1</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <artifactId>eureka</artifactId>
     <version>1.0.1</version>
     <name>sc-eureka-server</name>
     <description>Spring Cloud Demo for Eureka Server</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+    </dependencies>
 </project>
