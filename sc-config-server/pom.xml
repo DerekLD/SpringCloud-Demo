@@ -6,7 +6,6 @@
         <groupId>ld.derek</groupId>
         <artifactId>jar-mamange</artifactId>
         <version>1.0.1</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <artifactId>config</artifactId>
     <version>1.0.1</version>

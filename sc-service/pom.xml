@@ -6,15 +6,14 @@
         <groupId>ld.derek</groupId>
         <artifactId>jar-mamange</artifactId>
         <version>1.0.1</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <artifactId>service</artifactId>
     <version>1.0.1</version>
     <name>sc-service</name>
+    <packaging>pom</packaging>
     <description>Spring Cloud Demo For Server Father</description>
 
     <modules>
-        <module>sc-service-common</module>
         <module>sc-service-goods</module>
         <module>sc-service-order</module>
         <module>sc-service-stock</module>
@@ -35,7 +34,11 @@
             <artifactId>springfox-swagger2</artifactId>
             <version>${springfox-swagger2-version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${springfox-swagger-ui-version}</version>
+        </dependency>
         <dependency>
             <groupId>ld.derek</groupId>
             <artifactId>service-common</artifactId>
@@ -49,11 +52,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-            <version>${springfox-swagger-ui-version}</version>
-        </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -1,3 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-ld.derek.servicecommon.mybatisPlus.MybatisPlusConfig
-ld.derek.servicecommon.swagger2.Swagger2Config

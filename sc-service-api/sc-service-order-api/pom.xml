@@ -2,20 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
         <groupId>ld.derek</groupId>
-        <artifactId>jar-mamange</artifactId>
+        <artifactId>service-api</artifactId>
         <version>1.0.1</version>
     </parent>
-    <artifactId>eureka</artifactId>
+    <artifactId>service-order-api</artifactId>
     <version>1.0.1</version>
-    <name>sc-eureka-server</name>
-    <description>Spring Cloud Demo for Eureka Server</description>
+    <name>sc-service-order-api</name>
+    <packaging>jar</packaging>
+    <description>Spring Cloud Demo for Service Order Api</description>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-        </dependency>
-    </dependencies>
 </project>

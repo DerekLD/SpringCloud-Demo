@@ -1,8 +1,7 @@
 package ld.derek.serviceorder.controller;
 
-import ld.derek.servicegoodsapi.feign.ScServiceGoodsApi;
+import ld.derek.servicegoodsapi.api.ScServiceGoodsApi;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,6 +20,7 @@ public class TestConfigController {
 
     @GetMapping("/test_openfeign")
     public String testOpenFeign() {
+        System.out.println("路由到order服务，开始openFeign寻找goods服务。。。");
         return scServiceGoodsApi.testOpenFeign();
     }
 
