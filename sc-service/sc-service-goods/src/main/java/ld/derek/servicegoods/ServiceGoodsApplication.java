@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @EnableFeignClients("ld.derek.servicestockapi.bus.api")
 @EnableConfigurationProperties
-@MapperScan("ld.derek.servicegoods.bus")
+@MapperScan("ld.derek.servicegoods.bus.mapper")
 @SpringBootApplication
 public class ServiceGoodsApplication {
 
